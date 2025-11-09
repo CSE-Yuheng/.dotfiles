@@ -19,7 +19,7 @@ I set up my GitHub repository and SSH connection using Ed25519 keys. The main ch
 14 mkdir .dotfiles
 15 cd .dotfiles
 16 git init
-17 git remote add origin yzhu9069@gmail.com:CSE-Yuheng/.dotfiles.git
+17 git remote add origin git@github.com:CSE-Yuheng/.dotfiles.git
 18 git fetch
 19 notepad README.md
 20 notepad .bashrc
