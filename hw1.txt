@@ -1,0 +1,25 @@
+1 git config --global user.name "CSE-Yuheng"
+2 git config --global user.email "yzhu9069@gmail.com"
+3 cd ~
+4 mkdir .ssh
+5 cd .ssh
+6 notepad config
+7 mkdir github
+8 cd github
+9 ssh-keygen -t ed25519 -a 203 -f ./id_ed25519
+10 type id_ed25519.pub
+11 ssh -T git@github.com
+12 ssh-add C:\Users\19293\.ssh\github\id_ed25519
+13 ssh -T git@github.com
+14 mkdir .dotfiles
+15 cd .dotfiles
+16 git init
+17 git remote add origin yzhu9069@gmail.com:CSE-Yuheng/.dotfiles.git
+18 git fetch
+19 notepad README.md
+20 notepad .bashrc
+21 git status
+22 git add .
+23 git commit -m "Initial commit of basic dotfiles"
+24 git push -u origin master
+25 history 
