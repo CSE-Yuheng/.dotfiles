@@ -1,4 +1,4 @@
-https://github.com/CSE-Yuheng/.dotfiles/tree/main
+https://github.com/CSE-Yuheng/.dotfiles
 
 I set up my GitHub repository and SSH connection using Ed25519 keys. The main challenge was troubleshooting a 'Permission denied' error on Windows, which I resolved by configuring the SSH Agent. Once connected, I successfully used Git commands to push my files and complete the assignment.
 
