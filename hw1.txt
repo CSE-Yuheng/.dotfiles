@@ -1,3 +1,8 @@
+https://github.com/CSE-Yuheng/.dotfiles/tree/main
+
+I set up my GitHub repository and SSH connection using Ed25519 keys. The main challenge was troubleshooting a 'Permission denied' error on Windows, which I resolved by configuring the SSH Agent. Once connected, I successfully used Git commands to push my files and complete the assignment.
+
+
 1 git config --global user.name "CSE-Yuheng"
 2 git config --global user.email "yzhu9069@gmail.com"
 3 cd ~
@@ -23,3 +28,9 @@
 23 git commit -m "Initial commit of basic dotfiles"
 24 git push -u origin master
 25 history 
+
+
+Resources used:
+- GitHub.com web interface
+- This assignment handout
+- Powershell
